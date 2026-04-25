@@ -78,17 +78,6 @@ python chatbot.py
 - 합계 약 1.58M 토큰 / 월
 - Gemini 2.5 Flash 유료 단가 환산 시 **월 수 달러 수준**
 
-## 디렉토리 구조
-
-insighter-ai-assignment/
-├── chatbot.py            # 메인 CLI 챗봇 (안전 장치 포함)
-├── system_prompt.py      # 시스템 프롬프트 + 비식별화 마스킹 로직
-├── cbcl_sample.txt       # 샘플 K-CBCL 보고서 (테스트 입력)
-├── sessions/             # 보호자별 대화 히스토리 JSON 저장
-├── requirements.txt      # 의존성 (google-generativeai, python-dotenv)
-├── .env.example          # 환경 변수 템플릿
-├── .gitignore
-└── README.md
 
 ## 예시 대화
 
