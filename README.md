@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 `.env.example`을 복사해 `.env` 파일 생성 후 API 키 입력.
 
-GOOGLE_API_KEY=발급받은_API_키
+GEMINI_API_KEY=발급받은_API_키
 
 ### 4. 실행
 
@@ -63,7 +63,7 @@ python chatbot.py
 
 | 변수명 | 설명 | 필수 |
 |--------|------|------|
-| `GOOGLE_API_KEY` | Google AI Studio에서 발급한 Gemini API 키 | ✅ |
+| `GEMINI_API_KEY` | Google AI Studio에서 발급한 Gemini API 키 | ✅ |
 
 ## 예상 비용
 
